@@ -1,0 +1,9 @@
+spring:
+  application:
+    name: gprc-server
+server:
+  port: 9092
+grpc:
+  server:
+    port: 9090
+

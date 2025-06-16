@@ -1,0 +1,12 @@
+spring:
+  application:
+    name: gprc-client
+
+server:
+  port: 9091
+
+grpc:
+  client:
+    weather-service:
+      address: 'localhost:9090'
+      negotiationType: plaintext
